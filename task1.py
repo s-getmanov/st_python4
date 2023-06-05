@@ -10,7 +10,7 @@ while len(input_val) != 2:
     input_val = input("Введите длину и ширину прямоугольника через пробел: ").split()
 
 #Распакуем в переменные, одновременно преобразовав в int.
-a,b= map(int, input_val)
+a,b= map(float, input_val)
 
 print(f"Площадь прямоугольника = {a*b}")
 print(f"Периметр прямоугольника = {(a+b)*2}")
